@@ -19,10 +19,10 @@ POST_TIME=12:00
 *POST_TIME is in UTC*
 
 ## Build and Run
-``sh
+```sh
 docker build -t slack-bb-bot .
 docker run --env-file .env slack-bb-bot
-``
+```
 
 # Non-docker instructions
 ## Python dependencies
